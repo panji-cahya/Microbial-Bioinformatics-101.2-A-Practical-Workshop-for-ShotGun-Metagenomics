@@ -235,7 +235,6 @@ nano assembly_mode2.sh
 #SBATCH -o metaspades_mode2-%j.out
 #SBATCH -e metaspades_mode2-%j.error
 #SBATCH -- mail-type=FAIL,END
-#SBATCH -- mail-user=p.c.mawarda@rug.nl
 
 module load SPAdes
 cd $pwd
@@ -639,7 +638,6 @@ nano checkM_metabat2_mode2.sh
 #SBATCH -o checkM_metabat2_mode2-%j.out
 #SBATCH -e checkM_metabat2_mode2-%j.error
 #SBATCH --mail-type=FAIL,END
-#SBATCH --mail-user=p.c.mawarda@rug.nl
 
 module load Anaconda3
 conda activate checkm
@@ -771,7 +769,6 @@ nano prodigal.sh
 #SBATCH -o prodigal-%j.out
 #SBATCH -e prodigal-%j.error
 #SBATCH --mail-type=FAIL,END
-#SBATCH --mail-user=p.c.mawarda@rug.nl
 
 module load Anaconda3
 conda activate prodigal
@@ -795,7 +792,6 @@ nano prodigal_mags.sh
 #SBATCH -o prodigal_mags-%j.out
 #SBATCH -e prodigal_mags-%j.error
 #SBATCH --mail-type=FAIL,END
-#SBATCH --mail-user=p.c.mawarda@rug.nl
 
 module load Anaconda3
 conda activate prodigal
@@ -837,7 +833,6 @@ nano get_gtf.sh
 #SBATCH -o get_gtf-%j.out
 #SBATCH -e get_gtf-%j.error
 #SBATCH --mail-type=FAIL,END
-#SBATCH --mail-user=p.c.mawarda@rug.nl
 
 ./gff2gtf.sh cds/cds.gff > cds/cds.gtf
 
@@ -859,7 +854,6 @@ nano run_diamond_nr.sh
 #SBATCH -o run_diamond_nr-%j.out
 #SBATCH -e run_diamond_nr-%j.error
 #SBATCH --mail-type=FAIL,END
-#SBATCH --mail-user=p.c.mawarda@rug.nl
 
 modul load Anaconda3
 conda activate diamond
@@ -894,7 +888,6 @@ nano count_abundance.sh
 #SBATCH -o count_abundance-%j.out
 #SBATCH -e count_abundance-%j.error
 #SBATCH --mail-type=FAIL,END
-#SBATCH --mail-user=p.c.mawarda@rug.nl
 
 modul load Anaconda3
 conda activate subread 
@@ -935,7 +928,6 @@ nano run_hmmer.sh
 #SBATCH -o run_hmmer-%j.out
 #SBATCH -e run_hmmer-%j.error
 #SBATCH --mail-type=FAIL,END
-#SBATCH --mail-user=p.c.mawarda@rug.nl
 
 modul load Anaconda3
 conda activate hmmer
