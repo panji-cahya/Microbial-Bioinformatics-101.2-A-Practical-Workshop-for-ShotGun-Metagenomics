@@ -1,5 +1,9 @@
 # Microbial-Bioinformatics-101.2-A-Practical-Workshop-for-ShotGun-Metagenomics
-The workshop and its computing environment have been specifically designed for Indonesian scientists working at The National Research and Innovation Agency (BRIN), Indonesia. This workshop offers BRIN staff comprehensive training in analyzing bacterial community sequence data using whole metagenome shotgun techniques.
+The workshop and its computing environment have been tailored for Indonesian scientists working at The National Research and Innovation Agency (BRIN), Indonesia. This workshop offers BRIN staff comprehensive training in analyzing bacterial community sequence data using shotgun metagenomic techniques.
+
+Session 1: July 5 2024
+Session 2: July 6 2024
+Session 3: July 7 2024
 
 #go to your working directory
 cd /data/p283624
